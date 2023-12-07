@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import vercelLogo from 'public/vercel.svg'
-import nextLogo from 'public/nextjs.svg'
+import vercelLogo from './vercel.svg'
+import nextLogo from './nextjs.svg'
 
 export default function Home() {
   return (
