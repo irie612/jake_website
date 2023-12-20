@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    basePath: process.env.NODE_ENV === "production" ? "/jake_website": undefined,
+    basePath: process.env.NODE_ENV === "production" ? "/jake_website" : undefined,
     images: {
         unoptimized: true,
     },
