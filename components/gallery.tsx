@@ -23,8 +23,8 @@ const Gallery = () => {
     ];
 
     return (
-        <div className="flex justify-center mt-24 py-4">
-            <div className="grid grid-cols-3 gap-4 w-3/4">
+        <div className="flex justify-center lg:mt-52 md:mt-36 md:pt-4 pb-4">
+            <div className="grid grid-cols-3 gap-4 lg:w-9/12 md:w-10/12 w-11/12">
                 {images.map((image, index) => (
                     <div key={index}>
                         <Image src={image.src} alt={image.alt} className="aspect-[6/9] object-contain "/>
