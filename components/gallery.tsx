@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import { img_0, img_1, img_2, img_3, img_4, img_5, img_6, img_7, img_8, img_9, img_10, img_11 } from './image_loader';
+import { img_0, img_1, img_2, img_3, img_4, img_5, img_6, img_7, img_8, img_9, img_10, img_11, img_12, img_13, img_14, img_15, img_16, img_17, img_18, img_19, img_20, img_21, img_22, img_23 } from './image_loader';
 
 type ImageData = {
     src: StaticImageData;
@@ -20,6 +20,18 @@ const Gallery = () => {
         { src: img_9, alt: 'Image 10' },
         { src: img_10, alt: 'Image 11' },
         { src: img_11, alt: 'Image 12' },
+        { src: img_12, alt: 'Image 13' },
+        { src: img_13, alt: 'Image 14' },
+        { src: img_14, alt: 'Image 15' },
+        { src: img_15, alt: 'Image 16' },
+        { src: img_16, alt: 'Image 17' },
+        { src: img_17, alt: 'Image 18' },
+        { src: img_18, alt: 'Image 19' },
+        { src: img_19, alt: 'Image 20' },
+        { src: img_20, alt: 'Image 21' },
+        { src: img_21, alt: 'Image 22' },
+        { src: img_22, alt: 'Image 23' },
+        { src: img_23, alt: 'Image 24' },
     ];
 
     return (

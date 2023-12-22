@@ -13,6 +13,30 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes: {
+        'slide-in-bottom': {
+          '0%': {
+            transform: 'translateY(200%)',
+            visibility: 'visible',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+          },
+        },
+        'slide-out-bottom': {
+          '0%': {
+            transform: 'translateY(0)',
+          },
+          '100%': {
+            visibility: 'hidden',
+            transform: 'translateY(200%)',
+          },
+        },
+      },
+      animation: {
+        'slide-in-bottom': 'slide-in-bottom 0.5s ease-out',
+        'slide-out-bottom': 'slide-out-bottom 0.5s ease-in forwards',
+      },
     },
   },
   plugins: [],
