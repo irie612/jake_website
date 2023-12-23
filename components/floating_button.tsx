@@ -8,26 +8,25 @@ interface FloatingButtonProps {
 	position: "top-left" | "top-right" | "bottom-left" | "bottom-right";
 	icon: IconType;
 	onClick: () => void;
-    className: string;
+	className: string;
 }
 
 const FloatingButton: React.FC<FloatingButtonProps> = ({
 	position,
 	icon: Icon,
 	onClick,
-    className,
+	className,
 }) => {
-
 	const getPositionStyles = () => {
 		switch (position) {
 			case "top-left":
-                return "top-8 left-8";
-            case "top-right":
-                return "top-8 right-8";
-            case "bottom-left":
-                return "bottom-8 left-8";
-            case "bottom-right":
-                return "bottom-8 right-8";
+				return "top-8 left-8";
+			case "top-right":
+				return "top-8 right-8";
+			case "bottom-left":
+				return "bottom-8 left-8";
+			case "bottom-right":
+				return "bottom-8 right-8";
 			default:
 				return "";
 		}
@@ -35,7 +34,7 @@ const FloatingButton: React.FC<FloatingButtonProps> = ({
 
 	return (
 		<button
-            onClick={onClick}
+			onClick={onClick}
 			className={`fixed z-10 p-2 rounded-full dark:bg-zinc-200 bg-zinc-800 shadow-lg ${className} ${getPositionStyles()}`}
 		>
 			<Icon className="w-8 h-8 text-zinc-200 dark:text-zinc-800" />
@@ -46,7 +45,7 @@ const FloatingButton: React.FC<FloatingButtonProps> = ({
 const ArrowUpButton: React.FC = () => {
 	const [hiddenState, setHiddenState] = useState("hidden");
 
-    // useEffect that will unhide the button on scroll
+	// useEffect that will unhide the button on scroll
 	useEffect(() => {
 		const handleScroll = () => {
 			console.log(window.scrollY);
@@ -64,7 +63,6 @@ const ArrowUpButton: React.FC = () => {
 		};
 	}, []);
 
-
 	return (
 		<FloatingButton
 			position="bottom-right"
@@ -72,7 +70,7 @@ const ArrowUpButton: React.FC = () => {
 			onClick={() => {
 				window.scrollTo({ top: 0, behavior: "smooth" });
 			}}
-            className={hiddenState}
+			className={hiddenState}
 		/>
 	);
 };
