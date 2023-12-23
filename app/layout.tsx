@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Raleway } from "next/font/google";
+import { Share_Tech_Mono } from "next/font/google";
 import "./globals.css";
 
-const raleway = Raleway({ subsets: ["latin"] });
+const share_tech_mono = Share_Tech_Mono({ weight: ["400"], subsets: ["latin"] });
 
 const metadata: Metadata = {
 	title: "Jake Cordal Tattoo",
@@ -12,7 +12,7 @@ const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<html lang="en">
-			<body className={raleway.className}>{children}</body>
+			<body className={share_tech_mono.className}>{children}</body>
 		</html>
 	);
 };
