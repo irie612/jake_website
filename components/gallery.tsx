@@ -1,5 +1,8 @@
 import Image, { StaticImageData } from 'next/image';
-import { img_0, img_1, img_2, img_3, img_4, img_5, img_6, img_7, img_8, img_9, img_10, img_11, img_12, img_13, img_14, img_15, img_16, img_17, img_18, img_19, img_20, img_21, img_22, img_23 } from './image_loader';
+import { img_0, img_1, img_2, img_3, img_4, img_5, 
+    img_6, img_7, img_8, img_9, img_10, img_11, 
+    img_12, img_13, img_14, img_15, img_16, img_17, 
+    img_18} from './image_loader';
 
 type ImageData = {
     src: StaticImageData;
@@ -27,19 +30,14 @@ const Gallery = () => {
         { src: img_16, alt: 'Image 17' },
         { src: img_17, alt: 'Image 18' },
         { src: img_18, alt: 'Image 19' },
-        { src: img_19, alt: 'Image 20' },
-        { src: img_20, alt: 'Image 21' },
-        { src: img_21, alt: 'Image 22' },
-        { src: img_22, alt: 'Image 23' },
-        { src: img_23, alt: 'Image 24' },
     ];
 
     return (
-        <div className="flex justify-center lg:mt-52 md:mt-36 md:pt-4 pb-4">
+        <div className="flex justify-center -mt-8 lg:mt-40 md:mt-[125px] pb-4">
             <div className="grid grid-cols-3 gap-4 lg:w-9/12 md:w-10/12 w-11/12">
                 {images.map((image, index) => (
                     <div key={index}>
-                        <Image src={image.src} alt={image.alt} className="aspect-[6/9] object-contain "/>
+                        <Image src={image.src} alt={image.alt} className="aspect-[6/9] object-contain"/>
                     </div>
                 ))}
             </div>

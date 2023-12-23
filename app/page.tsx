@@ -8,7 +8,7 @@ import { ArrowUpButton } from "@/components/floating_button";
 
 const Home = () => {
 	return (
-		<main className="bg-white dark:bg-zinc-800">
+		<main className="bg-zinc-100 dark:bg-zinc-800">
 			<Header />
 			<Gallery />
 			<ArrowUpButton />

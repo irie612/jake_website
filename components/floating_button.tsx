@@ -33,22 +33,12 @@ const FloatingButton: React.FC<FloatingButtonProps> = ({
 		}
 	};
 
-	useEffect(() => {
-		// Attach event listener
-		document.addEventListener("click", onClick);
-
-		// Cleanup
-		return () => {
-			// Remove event listener on component unmount
-			document.removeEventListener("click", onClick);
-		};
-	}, []); // Empty dependency array ensures this effect runs only once on mount
-
 	return (
 		<button
-			className={`fixed z-10 p-2 rounded-full dark:bg-white bg-zinc-800 shadow-lg ${className} ${getPositionStyles()}`}
+            onClick={onClick}
+			className={`fixed z-10 p-2 rounded-full dark:bg-zinc-200 bg-zinc-800 shadow-lg ${className} ${getPositionStyles()}`}
 		>
-			<Icon className="w-8 h-8 text-white dark:text-black" />
+			<Icon className="w-8 h-8 text-zinc-200 dark:text-zinc-800" />
 		</button>
 	);
 };
