@@ -3,7 +3,7 @@ import { DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 
 const dm_serif_display_400 = DM_Serif_Display({ weight: ["400"], subsets: ["latin"] });
-const dm_serif_display_400_italic = DM_Serif_Display({ weight: ["400"], style: "italic", subsets: ["latin"] });
+const DmSerifDisplay400Italic = DM_Serif_Display({ weight: ["400"], style: "italic", subsets: ["latin"] });
 
 const metadata: Metadata = {
 	title: "Jake Cordal Tattoo",
@@ -21,4 +21,4 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 };
 
 export default RootLayout;
-export { metadata, dm_serif_display_400_italic };
+export { metadata, DmSerifDisplay400Italic };

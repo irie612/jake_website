@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaPhone } from "react-icons/fa";
+// import { FaInstagram, FaPhone } from "react-icons/fa";
 import Image from "next/image";
 import HeaderImg from "public/header.png";
 
