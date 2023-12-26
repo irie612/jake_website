@@ -19,7 +19,19 @@ import {
 	img_16,
 	img_17,
 	img_18,
+	img_19,
+	img_20,
+	img_21,
+	img_22,
+	img_23,
+	img_24,
+	img_25,
+	img_26,
+	img_27,
+	img_28,
+	img_29,
 } from "./image_loader";
+	
 
 type ImageData = {
 	src: StaticImageData;
@@ -47,11 +59,22 @@ const Gallery = () => {
 		{ src: img_16, alt: "Image 17" },
 		{ src: img_17, alt: "Image 18" },
 		{ src: img_18, alt: "Image 19" },
+		{ src: img_19, alt: "Image 20" },
+		{ src: img_20, alt: "Image 21" },
+		{ src: img_21, alt: "Image 22" },
+		{ src: img_22, alt: "Image 23" },
+		{ src: img_23, alt: "Image 24" },
+		{ src: img_24, alt: "Image 25" },
+		{ src: img_25, alt: "Image 26" },
+		{ src: img_26, alt: "Image 27" },
+		{ src: img_27, alt: "Image 28" },
+		{ src: img_28, alt: "Image 29" },
+		{ src: img_29, alt: "Image 30" },
 	];
 
 	return (
-		<div className="flex justify-center -mt-[18px] sm:-mt-7 lg:mt-[165px] md:mt-[96px] pb-4">
-			<div className="grid grid-cols-3 gap-4 lg:w-9/12 md:w-10/12 w-11/12">
+		<div className="flex justify-center lg:pb-8 pb-4">
+			<div className="grid grid-cols-3 gap-4 lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12">
 				{images.map((image, index) => (
 					<div key={index}>
 						<Image

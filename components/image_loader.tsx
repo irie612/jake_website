@@ -18,6 +18,16 @@ import img_16 from "public/gallery_images/16.png";
 import img_17 from "public/gallery_images/17.png";
 import img_18 from "public/gallery_images/18.png";
 import img_19 from "public/gallery_images/19.png";
+import img_20 from "public/gallery_images/20.png";
+import img_21 from "public/gallery_images/21.png";
+import img_22 from "public/gallery_images/22.png";
+import img_23 from "public/gallery_images/23.png";
+import img_24 from "public/gallery_images/24.png";
+import img_25 from "public/gallery_images/25.png";
+import img_26 from "public/gallery_images/26.png";
+import img_27 from "public/gallery_images/27.png";
+import img_28 from "public/gallery_images/28.png";
+import img_29 from "public/gallery_images/29.png";
 
 export {
 	img_0,
@@ -40,4 +50,14 @@ export {
 	img_17,
 	img_18,
 	img_19,
+	img_20,
+	img_21,
+	img_22,
+	img_23,
+	img_24,
+	img_25,
+	img_26,
+	img_27,
+	img_28,
+	img_29,
 };

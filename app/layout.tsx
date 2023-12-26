@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Share_Tech_Mono } from "next/font/google";
+import { DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 
-const share_tech_mono = Share_Tech_Mono({ weight: ["400"], subsets: ["latin"] });
+const dm_serif_display_400 = DM_Serif_Display({ weight: ["400"], subsets: ["latin"] });
+const dm_serif_display_400_italic = DM_Serif_Display({ weight: ["400"], style: "italic", subsets: ["latin"] });
 
 const metadata: Metadata = {
 	title: "Jake Cordal Tattoo",
@@ -12,10 +13,12 @@ const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<html lang="en">
-			<body className={share_tech_mono.className}>{children}</body>
+			<body className={`${dm_serif_display_400.className} tracking-[0.030em] bg-[rgb(243,243,239)] dark:bg-[rgb(27,27,20)] dark:text-white 2xl:text-5xl xl:text-4xl lg:text3xl md:text-2xl sm:text-sm`}>
+				{children}
+			</body>
 		</html>
 	);
 };
 
 export default RootLayout;
-export { metadata };
+export { metadata, dm_serif_display_400_italic };
