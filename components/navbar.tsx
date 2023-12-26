@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
                     <a href="#flash">FLASH</a>
                 </li>
                 <li className='px-4 w-1/3 text-center'>
-                    <a href="#shop">SHOP</a>
+                    <a href="https://jakecordal.bigcartel.com" target="_blank">SHOP</a>
                 </li>
             </ul>
         </nav>

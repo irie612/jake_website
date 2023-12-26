@@ -17,9 +17,9 @@ const Home = () => {
 				<p>Frith Street Tattoo</p>
 				<p>Soho, London</p>
 				<br />
-				<p>Tel: <em className={dm_serif_display_400_italic.className}>02077348180</em></p>
+				<p>Tel: <a href="tel:+442077348180"><em className={dm_serif_display_400_italic.className}>02077348180</em></a></p>
 				<p>Email: <a href="mailto:jcordal@icloud.com"><em className={dm_serif_display_400_italic.className}>jcordal@icloud.com</em></a></p>
-				<p>Instagram: <em className={dm_serif_display_400_italic.className}>@jakecordal</em></p>
+				<p>Instagram: <a href="https://instagram.com/jakecordal" target="_blank"><em className={dm_serif_display_400_italic.className}>@jakecordal</em></a></p>
 				<br />
 			</div>
 			<Gallery />
