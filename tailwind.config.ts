@@ -7,6 +7,10 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      'ivory': 'rgb(243,243,239)',
+      'maire': 'rgb(27,27,20)',
+    },
     extend: {
       keyframes: {
         'slide-in-bottom': {
