@@ -86,6 +86,7 @@ const TattooGallery = () => {
 							src={image.src}
 							alt={image.alt}
 							className="aspect-[6/9] object-contain"
+							placeholder="blur"
 						/>
 					</div>
 				))}
@@ -104,6 +105,7 @@ const FlashGallery = () => {
 							src={image.src}
 							alt={image.alt}
 							className="aspect-[6/9] object-contain"
+							placeholder="blur"
 						/>
 					</div>
 				))}
