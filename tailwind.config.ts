@@ -13,6 +13,7 @@ const config: Config = {
     colors: {
       'ivory': 'rgb(243,243,239)',
       'maire': 'rgb(27,27,20)',
+      'gold': 'rgb(228, 209, 0)',
     },
     extend: {
       keyframes: {

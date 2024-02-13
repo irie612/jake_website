@@ -45,9 +45,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 					<p>Frith Street Tattoo</p>
 					<p>Soho, London</p>
 					<br />
-					<p>Tel: <a href="tel:+442077348180" className="italic">0207-734-8180</a></p>
-					<p>Email: <a href="mailto:jcordal@icloud.com" className="italic">jcordal@icloud.com</a></p>
-					<p>Instagram: <a href="https://instagram.com/jakecordal" target="_blank" className="italic">@jakecordal</a></p>
+					<p>Tel: <a href="tel:+442077348180" className="italic link">0207-734-8180</a></p>
+					<p>Email: <a href="mailto:jcordal@icloud.com" className="italic link">jcordal@icloud.com</a></p>
+					<p>Instagram: <a href="https://instagram.com/jakecordal" target="_blank" className="italic link">@jakecordal</a></p>
 					<br />
 				</div>
 				{children}

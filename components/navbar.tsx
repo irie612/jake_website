@@ -15,15 +15,15 @@ const Navbar: React.FC = () => {
 
     return (
         <nav className='flex justify-center'>
-            <ul className='flex xl:5/12 lg:w-7/12 md:w-8/12 sm:w-10/12 w-11/12'>
-                <li className={checkActivePath("/") ? 'active-nav' : 'inactive-nav'}>
-                    <Link href="/">TATTOOS</Link>
+            <ul className='flex xl:5/12 lg:w-7/12 md:w-8/12 sm:w-10/12 w-11/12 font-bold'>
+                <li className='px-4 w-1/3 text-center'>
+                    <Link href="/" className={checkActivePath("/") ? 'active-link' : 'link'}>TATTOOS</Link>
                 </li>
-                <li className={checkActivePath("/flash") ? 'active-nav' : 'inactive-nav'}>
-                    <Link href="/flash">FLASH</Link>
+                <li className='px-4 w-1/3 text-center'>
+                    <Link href="/flash" className={checkActivePath("/flash") ? 'active-link' : 'link'}>FLASH</Link>
                 </li>
-                <li className='px-4 w-1/3 text-center hover:bg-maire dark:hover:bg-ivory hover:text-ivory dark:hover:text-maire'>
-                    <a href="https://jakecordal.bigcartel.com" target="_blank">SHOP</a>
+                <li className='px-4 w-1/3 text-center'>
+                    <a href="https://jakecordal.bigcartel.com" target="_blank" className='link'>SHOP</a>
                 </li>
             </ul>
         </nav>
