@@ -1,12 +1,32 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { DM_Serif_Display } from "next/font/google";
+import localFont from "next/font/local"
 import Header from "@/components/header";
 import Navbar from "@/components/navbar";
 import { ArrowUpButton } from "@/components/floating_button";
 
-const dm_serif_display_400 = DM_Serif_Display({ weight: ["400"], subsets: ["latin"] });
-const dm_serif_display_400_italic = DM_Serif_Display({ weight: ["400"], style: "italic", subsets: ["latin"] });
+const eurostile = localFont({
+	src: [
+		{
+			path: '../public/fonts/Eurostile LT/Eurostile LT Regular.ttf',
+			weight: "400",
+		},
+		{
+			path: '../public/fonts/Eurostile LT/Eurostile LT Italic.ttf',
+			weight: "400",
+			style: "italic",
+		},
+		{
+			path: '../public/fonts/Eurostile LT/Eurostile LT Bold.ttf',
+			weight: "700",
+		},
+		{
+			path: '../public/fonts/Eurostile LT/Eurostile LT Bold Italic.ttf',
+			weight: "700",
+			style: "italic",
+		},
+	]
+})
 
 const metadata: Metadata = {
 	title: "Jake Cordal Tattoo",
@@ -15,18 +35,19 @@ const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
-		<html lang="en" className={dm_serif_display_400.className}>
-			<body className="tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text3xl md:text-2xl sm:text-sm">
+		<html lang="en" className={eurostile.className}>
+		{/* <html lang="en"> */}
+			<body className="lg:tracking-[0.050em] tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text3xl md:text-2xl sm:text-sm">
 				<Header />
 				<Navbar />
-				<div className={`${dm_serif_display_400.className} text-center`}>
+				<div className="text-center">
 					<br />
 					<p>Frith Street Tattoo</p>
 					<p>Soho, London</p>
 					<br />
-					<p>Tel: <a href="tel:+442077348180" className={dm_serif_display_400_italic.className}><em>0207-734-8180</em></a></p>
-					<p>Email: <a href="mailto:jcordal@icloud.com" className={dm_serif_display_400_italic.className}><em>jcordal@icloud.com</em></a></p>
-					<p>Instagram: <a href="https://instagram.com/jakecordal" target="_blank" className={dm_serif_display_400_italic.className}><em>@jakecordal</em></a></p>
+					<p>Tel: <a href="tel:+442077348180" className="italic">0207-734-8180</a></p>
+					<p>Email: <a href="mailto:jcordal@icloud.com" className="italic">jcordal@icloud.com</a></p>
+					<p>Instagram: <a href="https://instagram.com/jakecordal" target="_blank" className="italic">@jakecordal</a></p>
 					<br />
 				</div>
 				{children}

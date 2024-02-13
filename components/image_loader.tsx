@@ -1,4 +1,4 @@
-import header_img from "public/header.png";
+import header_img from "public/header.webp";
 import tat_img_0 from "public/gallery_images/tattoo_images/0.png";
 import tat_img_1 from "public/gallery_images/tattoo_images/1.png";
 import tat_img_2 from "public/gallery_images/tattoo_images/2.png";
