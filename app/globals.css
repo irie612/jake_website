@@ -6,10 +6,10 @@ html {
 	scroll-behavior: smooth;
 }
 @layer components {
-	.active-link {
+	.active-nav {
 		@apply text-gold;
 	}
-	.link {
+	.nav {
 		@apply hover:text-gold active:text-gold;
 	}
 }
