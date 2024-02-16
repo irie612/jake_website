@@ -104,7 +104,7 @@ const FlashGallery = () => {
 						<Image
 							src={image.src}
 							alt={image.alt}
-							className="aspect-[6/9] object-contain"
+							className="aspect-[1051/1396] object-contain"
 							placeholder="blur"
 						/>
 					</div>
