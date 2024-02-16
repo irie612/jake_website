@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local"
 import Header from "@/components/header";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 import { ArrowUpButton } from "@/components/floating_button";
 
 const eurostile = localFont({
@@ -52,6 +53,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 				</div>
 				{children}
 				<ArrowUpButton />
+				<Footer />
 			</body>
 		</html>
 	);
