@@ -48,7 +48,6 @@ const ArrowUpButton: React.FC = () => {
 	// useEffect that will unhide the button on scroll
 	useEffect(() => {
 		const handleScroll = () => {
-			console.log(window.scrollY);
 			if (window.scrollY > 100) {
 				setHiddenState("animate-slide-in-bottom");
 			} else {
