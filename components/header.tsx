@@ -10,7 +10,7 @@ const Header = () => {
 				<Image
 					src={header_img}
 					alt="Header Image"
-					className="lg:max-h-72 md:max-h-40 sm:max-h-32 px-2 md:px-4 aspect-[539/170] w-auto"
+					className="xl:max-h-72 lg:max-h-60 md:max-h-40 sm:max-h-32 px-2 md:px-4 aspect-[539/170] w-auto"
 					priority={true}
 				/>
 			</Link>
