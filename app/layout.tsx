@@ -37,8 +37,7 @@ const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<html lang="en" className={eurostile.className}>
-		{/* <html lang="en"> */}
-			<body className="lg:tracking-[0.050em] tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text3xl md:text-2xl sm:text-sm">
+			<body className="lg:tracking-[0.050em] tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-sm">
 				<Header />
 				<Navbar />
 				<div className="text-center">
