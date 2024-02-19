@@ -1,33 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import localFont from "next/font/local"
 import Header from "@/components/header";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { ArrowUpButton } from "@/components/floating_button";
 
-const eurostile = localFont({
-	src: [
-		{
-			path: '../public/fonts/Eurostile LT/Eurostile LT Regular.ttf',
-			weight: "400",
-		},
-		{
-			path: '../public/fonts/Eurostile LT/Eurostile LT Italic.ttf',
-			weight: "400",
-			style: "italic",
-		},
-		{
-			path: '../public/fonts/Eurostile LT/Eurostile LT Bold.ttf',
-			weight: "700",
-		},
-		{
-			path: '../public/fonts/Eurostile LT/Eurostile LT Bold Italic.ttf',
-			weight: "700",
-			style: "italic",
-		},
-	]
-})
 
 const metadata: Metadata = {
 	title: "Jake Cordal Tattoo",
@@ -36,7 +13,7 @@ const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
-		<html lang="en" className={eurostile.className}>
+		<html lang="en">
 			<body className="lg:tracking-[0.050em] tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-sm">
 				<Header />
 				<Navbar />
