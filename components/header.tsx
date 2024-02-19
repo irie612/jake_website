@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Header = () => {
 	return (
-		<div className="top-0 flex w-full justify-center">
+		<div className="flex w-full justify-center">
 			<Link href="/">
 				<Image
 					src={header_img}
