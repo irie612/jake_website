@@ -37,6 +37,8 @@
 html {
 	scroll-behavior: smooth;
 	font-family: 'Eurostile LT';
+    height: 100%;
+    margin: 0;
 }
 @layer components {
 	.active-nav {

@@ -14,7 +14,7 @@ const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<html lang="en">
-			<body className="lg:tracking-[0.050em] tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-sm">
+			<body className="h-full flex flex-col lg:tracking-[0.050em] tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-sm">
 				<Header />
 				<Navbar />
 				<div className="text-center">
@@ -27,7 +27,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 					<p>Instagram: <a href="https://instagram.com/jakecordal" target="_blank" className="text-gold italic hover:dark:text-ivory active:dark:text-ivory hover:text-maire active:text-maire">@jakecordal</a></p>
 					<br />
 				</div>
-				{children}
+				<div className="flex grow shrink-0 justify-center lg:pb-8 pb-4">
+					{children}
+				</div>
 				<ArrowUpButton />
 				<Footer />
 			</body>

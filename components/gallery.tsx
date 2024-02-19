@@ -78,38 +78,34 @@ const flsh_images: ImageData[] = [
 
 const TattooGallery = () => {
 	return (
-		<div className="flex justify-center lg:pb-8 pb-4">
-			<div className="grid grid-cols-3 gap-4 lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12">
-				{tat_images.map((image, index) => (
-					<div key={index}>
-						<Image
-							src={image.src}
-							alt={image.alt}
-							className="aspect-[6/9] object-contain"
-							placeholder="blur"
-						/>
-					</div>
-				))}
-			</div>
+		<div className="grid grid-cols-3 gap-4 lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12">
+			{tat_images.map((image, index) => (
+				<div key={index}>
+					<Image
+						src={image.src}
+						alt={image.alt}
+						className="aspect-[6/9] object-contain"
+						placeholder="blur"
+					/>
+				</div>
+			))}
 		</div>
 	);
 }
 
 const FlashGallery = () => {
 	return (
-		<div className="flex justify-center lg:pb-8 pb-4">
-			<div className="grid grid-cols-2 gap-4 lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12">
-				{flsh_images.map((image, index) => (
-					<div key={index}>
-						<Image
-							src={image.src}
-							alt={image.alt}
-							className="aspect-[1051/1396] object-contain"
-							placeholder="blur"
-						/>
-					</div>
-				))}
-			</div>
+		<div className="grid grid-cols-2 gap-4 lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12">
+			{flsh_images.map((image, index) => (
+				<div key={index}>
+					<Image
+						src={image.src}
+						alt={image.alt}
+						className="aspect-[1051/1396] object-contain"
+						placeholder="blur"
+					/>
+				</div>
+			))}
 		</div>
 	);
 };

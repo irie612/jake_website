@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Header = () => {
 	return (
-		<div className="flex w-full justify-center">
+		<header className="flex w-full justify-center">
 			<Link href="/">
 				<Image
 					src={header_img}
@@ -14,7 +14,7 @@ const Header = () => {
 					priority={true}
 				/>
 			</Link>
-		</div>
+		</header>
 	);
 };
 
