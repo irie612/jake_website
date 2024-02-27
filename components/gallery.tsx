@@ -1,6 +1,12 @@
 import Image, { StaticImageData } from "next/image";
 import {
 	flsh_img_0,
+	flsh_img_1,
+	flsh_img_2,
+	flsh_img_3,
+	flsh_img_4,
+	flsh_img_5,
+	flsh_img_6,
 	tat_img_0,
 	tat_img_1,
 	tat_img_2,
@@ -31,8 +37,9 @@ import {
 	tat_img_27,
 	tat_img_28,
 	tat_img_29,
+	tat_img_30,
 } from "./image_loader";
-	
+
 type ImageData = {
 	src: StaticImageData;
 	alt: string;
@@ -70,11 +77,18 @@ const tat_images: ImageData[] = [
 	{ src: tat_img_27, alt: "Tattoo Image 28" },
 	{ src: tat_img_28, alt: "Tattoo Image 29" },
 	{ src: tat_img_29, alt: "Tattoo Image 30" },
+	{ src: tat_img_30, alt: "Tattoo Image 31" },
 ];
 
 const flsh_images: ImageData[] = [
-	{ src: flsh_img_0,  alt: "Flash Image 1" },
-]
+	{ src: flsh_img_0, alt: "Flash Image 1" },
+	{ src: flsh_img_1, alt: "Flash Image 2" },
+	{ src: flsh_img_2, alt: "Flash Image 3" },
+	{ src: flsh_img_3, alt: "Flash Image 4" },
+	{ src: flsh_img_4, alt: "Flash Image 5" },
+	{ src: flsh_img_5, alt: "Flash Image 6" },
+	{ src: flsh_img_6, alt: "Flash Image 7" },
+];
 
 const TattooGallery = () => {
 	return (
@@ -91,23 +105,30 @@ const TattooGallery = () => {
 			))}
 		</div>
 	);
-}
+};
 
 const FlashGallery = () => {
 	return (
 		<div className="grid grid-cols-2 gap-4 lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12">
-			{flsh_images.map((image, index) => (
+			{flsh_images.slice(1).map((image, index) => (
 				<div key={index}>
 					<Image
 						src={image.src}
 						alt={image.alt}
-						className="aspect-[1051/1396] object-contain"
+						className="object-contain"
 						placeholder="blur"
 					/>
 				</div>
 			))}
+			<div key={0} className="row-span-2 col-span-2">
+				<Image
+					src={flsh_images[0].src}
+					alt={flsh_images[0].alt}
+					className="aspect-[3/4] object-contain"
+					placeholder="blur"
+				/>
+			</div>
 		</div>
 	);
 };
-
 export { TattooGallery, FlashGallery };
