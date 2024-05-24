@@ -30,6 +30,14 @@ import tat_img_27 from "@/images/tattoo_images/27.webp";
 import tat_img_28 from "@/images/tattoo_images/28.webp";
 import tat_img_29 from "@/images/tattoo_images/29.webp";
 import tat_img_30 from "@/images/tattoo_images/30.webp";
+import tat_img_31 from "@/images/tattoo_images/31.webp";
+import tat_img_32 from "@/images/tattoo_images/32.webp";
+import tat_img_33 from "@/images/tattoo_images/33.webp";
+import tat_img_34 from "@/images/tattoo_images/34.webp";
+import tat_img_35 from "@/images/tattoo_images/35.webp";
+import tat_img_36 from "@/images/tattoo_images/36.webp";
+import tat_img_37 from "@/images/tattoo_images/37.webp";
+import tat_img_38 from "@/images/tattoo_images/38.webp";
 import flsh_img_0 from "@/images/flash_images/0.webp";
 import flsh_img_1 from "@/images/flash_images/1.webp";
 import flsh_img_2 from "@/images/flash_images/2.webp";
@@ -71,6 +79,14 @@ export {
 	tat_img_28,
 	tat_img_29,
 	tat_img_30,
+	tat_img_31,
+	tat_img_32,
+	tat_img_33,
+	tat_img_34,
+	tat_img_35,
+	tat_img_36,
+	tat_img_37,
+	tat_img_38,
 	flsh_img_0,
 	flsh_img_1,
 	flsh_img_2,

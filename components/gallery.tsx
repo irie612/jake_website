@@ -38,6 +38,14 @@ import {
 	tat_img_28,
 	tat_img_29,
 	tat_img_30,
+	tat_img_31,
+	tat_img_32,
+	tat_img_33,
+	tat_img_34,
+	tat_img_35,
+	tat_img_36,
+	tat_img_37,
+	tat_img_38,
 } from "./image_loader";
 
 type ImageData = {
@@ -78,6 +86,14 @@ const tat_images: ImageData[] = [
 	{ src: tat_img_28, alt: "Tattoo Image 29" },
 	{ src: tat_img_29, alt: "Tattoo Image 30" },
 	{ src: tat_img_30, alt: "Tattoo Image 31" },
+	{ src: tat_img_31, alt: "Tattoo Image 32" },
+	{ src: tat_img_32, alt: "Tattoo Image 33" },
+	{ src: tat_img_33, alt: "Tattoo Image 34" },
+	{ src: tat_img_34, alt: "Tattoo Image 35" },
+	{ src: tat_img_35, alt: "Tattoo Image 36" },
+	{ src: tat_img_36, alt: "Tattoo Image 37" },
+	{ src: tat_img_37, alt: "Tattoo Image 38" },
+	{ src: tat_img_38, alt: "Tattoo Image 39" },
 ];
 
 const flsh_images: ImageData[] = [
