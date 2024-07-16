@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
                     <Link href="/flash" className={checkActivePath("/flash") ? 'active-nav' : 'nav'}>FLASH</Link>
                 </li>
                 <li className='px-4 w-1/3 text-center'>
-                    <a href="shop.jakecordaltattoo.co.uk" className='nav'>SHOP</a>
+                    <a href="https://shop.jakecordaltattoo.co.uk" className='nav'>SHOP</a>
                 </li>
             </ul>
         </nav>
