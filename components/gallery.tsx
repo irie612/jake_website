@@ -7,6 +7,12 @@ import {
 	flsh_img_4,
 	flsh_img_5,
 	flsh_img_6,
+	flsh_img_7,
+	flsh_img_8,
+	flsh_img_9,
+	flsh_img_10,
+	flsh_img_11,
+	flsh_img_12,
 	tat_img_0,
 	tat_img_1,
 	tat_img_2,
@@ -104,6 +110,12 @@ const flsh_images: ImageData[] = [
 	{ src: flsh_img_4, alt: "Flash Image 5" },
 	{ src: flsh_img_5, alt: "Flash Image 6" },
 	{ src: flsh_img_6, alt: "Flash Image 7" },
+	{ src: flsh_img_7, alt: "Flash Image 8" },
+	{ src: flsh_img_8, alt: "Flash Image 9" },
+	{ src: flsh_img_9, alt: "Flash Image 10" },
+	{ src: flsh_img_10, alt: "Flash Image 11" },
+	{ src: flsh_img_11, alt: "Flash Image 12" },
+	{ src: flsh_img_12, alt: "Flash Image 13" },
 ];
 
 const TattooGallery = () => {
