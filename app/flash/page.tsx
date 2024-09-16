@@ -1,4 +1,9 @@
 import { FlashGallery } from "@/components/gallery";
+import { Metadata } from "next";
+
+const metadata: Metadata = {
+	title: "Flash",
+}
 
 const FlashPage = () => {
 	return (
@@ -7,3 +12,4 @@ const FlashPage = () => {
 };
 
 export default FlashPage;
+export { metadata };

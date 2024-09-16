@@ -6,6 +6,9 @@ import Link from "next/link";
 const Header = () => {
 	return (
 		<header className="flex w-full justify-center">
+			<h1 className="invisible h-0 w-0">
+				Jake Cordal traditional tattoo artist soho central London
+			</h1>
 			<Link href="/">
 				<Image
 					src={header_img}
