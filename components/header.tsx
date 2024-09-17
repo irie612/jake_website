@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Header = () => {
 	return (
-		<header className="flex w-full justify-center">
+		<header className="flex w-full justify-center" data-nosnippet>
 			<h1 className="invisible h-0 w-0">
 				Jake Cordal traditional tattoo artist soho central London
 			</h1>

@@ -45,8 +45,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 		<html lang="en">
 			<GoogleTagManager gtmId="G-MQT9Z1PNLC"/>
 			<body className="h-full flex flex-col lg:tracking-[0.050em] tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-sm">
-				<Header data-nosnippet/>
-				<Navbar data-nosnippet/>
+				<Header />
+				<Navbar />
 				<div className="text-center">
 					<br />
 					<p>Frith Street Tattoo</p>
@@ -79,11 +79,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 					</p>
 					<br />
 				</div>
-				<div className="flex grow shrink-0 justify-center lg:pb-8 pb-4" data-nosnippet>
+				<div className="flex grow shrink-0 justify-center lg:pb-8 pb-4" >
 					{children}
 				</div>
-				<ArrowUpButton data-nosnippet/>
-				<Footer data-nosnippet/>
+				<ArrowUpButton />
+				<Footer />
 			</body>
 		</html>
 	);

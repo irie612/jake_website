@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     const checkActivePath = useActivePath()
 
     return (
-        <nav className='flex justify-center'>
+        <nav className='flex justify-center' data-nosnippet>
             <ul className='flex xl:w-6/12 lg:w-7/12 md:w-8/12 sm:w-10/12 w-11/12 font-bold'>
                 <li className='px-4 w-1/3 text-center'>
                     <Link href="/" className={checkActivePath("/") ? 'active-nav' : 'nav'}>TATTOOS</Link>
