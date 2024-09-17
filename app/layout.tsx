@@ -4,6 +4,8 @@ import Header from "@/components/header";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { ArrowUpButton } from "@/components/floating_button";
+import { GoogleTagManager } from '@next/third-parties/google'
+
 
 const title: string = "Jake Cordal | Tattoo Artist | Soho, London"
 const description: string = "Jake Cordal can be found working at the world famous Frith Street Tattoo in Soho, Central London."
@@ -41,6 +43,7 @@ const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<html lang="en">
+			<GoogleTagManager gtmId="G-MQT9Z1PNLC"/>
 			<body className="h-full flex flex-col lg:tracking-[0.050em] tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-sm">
 				<Header />
 				<Navbar />
