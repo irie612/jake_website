@@ -60,7 +60,10 @@ import {
 	tat_img_38,
 	tat_img_39,
 	tat_img_40,
-	tat_img_41
+	tat_img_41,
+	tat_img_42,
+	tat_img_43,
+	tat_img_44,
 } from "./image_loader";
 
 type ImageData = {
@@ -111,6 +114,9 @@ const tat_images: ImageData[] = [
 	{ src: tat_img_39, alt: "American traditional black and grey Sailor Jerry tattoo flash design of a woman riding a flying eagle" },
 	{ src: tat_img_40, alt: "American traditonal Dee Dee Ramone tattoo of a skull with playing cards reading too tough to die" },
 	{ src: tat_img_41, alt: "American traditional black and grey flash tattoo of a rose" },
+	{ src: tat_img_42, alt: "American traditonal black and grey National tattoo supply flash design of a skull a snake and a playing card" },
+	{ src: tat_img_43, alt: "Borneo tribal blackwork tattoo filler on shoulder" },
+	{ src: tat_img_44, alt: "Traditional Japanese Hannya mask tattoo design with red and yellow flames" },
 ];
 
 const flsh_images: ImageData[] = [
