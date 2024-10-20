@@ -7,7 +7,7 @@ const Header = () => {
 	return (
 		<header className="flex w-full justify-center" data-nosnippet>
 			<h1 className="invisible h-0 w-0">
-				Jake Cordal traditional tattoo artist soho central London
+				Jake Cordal traditional tattoo artist Soho Central London
 			</h1>
 			<Link href="/">
 				<Image
