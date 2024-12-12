@@ -13,7 +13,7 @@ const description: string = "Jake Cordal can be found working at the world famou
 const metadata: Metadata = {
 	title: {
 		default: title,
-		template: "Jake Cordal | Tattoo %s | Soho, London",
+		template: "Jake Cordal | %s | Soho, London",
 	},
 	description: description,
 	keywords: "Jake Cordal, tattoo artist, Soho tattoo, Frith Street Tattoo, London tattoos, American traditional tattoos, black and grey tattoos, Borneo tribal tattoos, tattoo flash sheets, vintage tattoo designs, traditional tattoo art, pin-up tattoos, sacred heart tattoos, Japanese dragon tattoos, skull tattoos, eagle tattoos, geisha tattoos, sailor jerry tattoos, bold tattoo designs, custom tattoo work",
