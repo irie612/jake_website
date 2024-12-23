@@ -3,7 +3,7 @@ import Image from "next/image";
 import { header_img } from "@/components/image_loader";
 import Link from "next/link";
 
-const Header = () => {
+const Header: React.FC = () => {
 	return (
 		<header className="flex w-full justify-center" data-nosnippet>
 			<h1 className="invisible h-0 w-0">
