@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { header_img } from "@/components/image_loader";
+import { header_img } from "@/utils/image_loader";
 import Link from "next/link";
 
 const Header: React.FC = () => {
