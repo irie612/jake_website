@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Header from "@/components/header";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import ContactInfo from "@/components/contact_info";
 import { ArrowUpButton } from "@/components/floating_button";
 import { GoogleTagManager } from '@next/third-parties/google'
 
@@ -47,38 +48,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 			<body className="h-full flex flex-col lg:tracking-[0.050em] tracking-[0.030em] bg-ivory dark:bg-maire dark:text-ivory 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-sm">
 				<Header />
 				<Navbar />
-				<div className="text-center">
-					<br />
-					<p>Frith Street Tattoo</p>
-					<p>Soho, London</p>
-					<br />
-					<p>
-						Tel:{" "}
-						<a href="tel:+442077348180" className="contact-text">
-							0207-734-8180
-						</a>
-					</p>
-					<p>
-						Email:{" "}
-						<a
-							href="mailto:jcordal@icloud.com"
-							className="contact-text"
-						>
-							jcordal@icloud.com
-						</a>
-					</p>
-					<p>
-						Instagram:{" "}
-						<a
-							href="https://instagram.com/jakecordal"
-							target="_blank"
-							className="contact-text"
-						>
-							@jakecordal
-						</a>
-					</p>
-					<br />
-				</div>
+				<ContactInfo />
 				<div className="flex grow shrink-0 justify-center lg:pb-8 pb-4" >
 					{children}
 				</div>

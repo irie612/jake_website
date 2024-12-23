@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Footer = () => {
+const Footer: React.FC = () => {
     return (
         <footer className="bg-ivory dark:bg-maire text-maire dark:text-ivory py-4 flex justify-center" data-nosnippet>
             <div className="flex flex-col text-xs lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12">
