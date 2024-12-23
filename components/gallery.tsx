@@ -64,7 +64,7 @@ import {
 	tat_img_42,
 	tat_img_43,
 	tat_img_44,
-} from "./image_loader";
+} from "../utils/image_loader";
 
 type ImageData = {
 	src: StaticImageData;
