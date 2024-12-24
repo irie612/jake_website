@@ -6,7 +6,10 @@ const Footer: React.FC = () => {
         <footer className="bg-ivory dark:bg-maire text-maire dark:text-ivory py-4 flex justify-center" data-nosnippet>
             <div className="flex flex-col text-xs lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12">
                 <p className='text-sm'>
-                    <Link href="/" className="nav underline">Tattoos</Link> | <Link href="/flash" className="nav underline">Flash</Link> | <a href="https://shop.jakecordaltattoo.co.uk" className="nav underline">Shop</a>
+                    <Link href="/" className="nav underline">Tattoos</Link> | <span/>
+                    <Link href="/flash" className="nav underline">Flash</Link> | <span/>
+                    <a href="https://shop.jakecordaltattoo.co.uk" className="nav underline">Shop</a> | <span/>
+                    <Link href="/faq" className='nav underline'>FAQ</Link>
                 </p>
                 <br />
                 <div className='flex justify-between flex-col sm:flex-row'>
