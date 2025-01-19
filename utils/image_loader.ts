@@ -65,6 +65,12 @@ import flsh_img_15 from "@/images/flash_images/15.webp";
 import flsh_img_16 from "@/images/flash_images/16.webp";
 import flsh_img_17 from "@/images/flash_images/17.webp";
 import flsh_img_18 from "@/images/flash_images/18.webp";
+import flsh_img_19 from "@/images/flash_images/19.webp";
+import flsh_img_20 from "@/images/flash_images/20.webp";
+import flsh_img_21 from "@/images/flash_images/21.webp";
+import flsh_img_22 from "@/images/flash_images/22.webp";
+import flsh_img_23 from "@/images/flash_images/23.webp";
+import flsh_img_24 from "@/images/flash_images/24.webp";
 
 
 export {
@@ -135,4 +141,10 @@ export {
 	flsh_img_16,
 	flsh_img_17,
 	flsh_img_18,
+	flsh_img_19,
+	flsh_img_20,
+	flsh_img_21,
+	flsh_img_22,
+	flsh_img_23,
+	flsh_img_24,
 };
