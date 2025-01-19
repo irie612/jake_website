@@ -9,6 +9,7 @@ const Footer: FC = () => {
                     <Link href="/" className="nav underline">Tattoos</Link> | <span/>
                     <Link href="/flash" className="nav underline">Flash</Link> | <span/>
                     <a href="https://shop.jakecordaltattoo.co.uk" className="nav underline">Shop</a> | <span/>
+                    <Link href="/faq" className='nav underline'>FAQ</Link> | <span/>
                     <Link href="/book" className='nav underline'>Book</Link>
                 </p>
                 <br />
