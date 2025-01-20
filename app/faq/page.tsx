@@ -57,7 +57,7 @@ const FAQPage = () => {
 	];
 
 	return (
-		<div className="lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12 float-left px-4 py-8">
+		<div className="lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12 float-left px-4 py-4">
 			<h1 className="font-bold mb-6 text-gold text-center">FAQ</h1>
 			<FAQDropDown faqs={faqData} />
 		</div>
