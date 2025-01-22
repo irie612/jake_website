@@ -1,7 +1,7 @@
 "use client";
-import React from "react";
+import type { FC } from "react";
 import { useEffect, useState } from "react";
-import { IconType } from "react-icons";
+import type { IconType } from "react-icons";
 import { FaArrowUp } from "react-icons/fa";
 
 interface FloatingButtonProps {
@@ -11,7 +11,7 @@ interface FloatingButtonProps {
 	className: string;
 }
 
-const FloatingButton: React.FC<FloatingButtonProps> = ({
+const FloatingButton: FC<FloatingButtonProps> = ({
 	position,
 	icon: Icon,
 	onClick,

@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import type { FC } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
 
@@ -10,7 +10,7 @@ const useActivePath = () => {
     return checkActivePath;
 }
 
-const Navbar: React.FC = () => {
+const Navbar: FC = () => {
     const checkActivePath = useActivePath()
 
     return (

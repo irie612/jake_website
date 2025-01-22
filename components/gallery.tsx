@@ -1,3 +1,4 @@
+import type { FC } from "react";
 import Image, { StaticImageData } from "next/image";
 import {
 	flsh_img_0,
@@ -70,14 +71,14 @@ import {
 	tat_img_42,
 	tat_img_43,
 	tat_img_44,
-} from "./image_loader";
+} from "../utils/image_loader";
 
 type ImageData = {
 	src: StaticImageData;
 	alt: string;
 };
 
-const TattooGallery: React.FC = () => {
+const TattooGallery: FC = () => {
 	const tat_images: ImageData[] = [
 		{ src: tat_img_0, alt: "American traditional spread eagle chest tattoo with blue clouds and red sun" },
 		{ src: tat_img_1, alt: "Black and grey American traditional and black work Borneo tribal feet tattoos of a grim reaper with flames and a Japanese mask with lightening" },
@@ -142,7 +143,7 @@ const TattooGallery: React.FC = () => {
 	);
 };
 
-const FlashGallery: React.FC = () => {
+const FlashGallery: FC = () => {
 	const flsh_images: ImageData[] = [
 		{ src: flsh_img_0, alt: "Bold American traditional tattoo flash sheet of a black panther, a British bulldog, a memorial tattoo with black cross, red heart, and banner, a skull and dagger, and a rest in peace memorial tattoo with a cross, love hearts, and a banner" },
 		{ src: flsh_img_1, alt: "Bold American traditional full colour tattoo flash sheet of a Bob Shaw butterfly and rose, a picture machine mouse, a picture machine crawling panther with a snake wrapped around it, a Spaulding and Rogers skull with 70s style bubble and lightening background, a winged cherry, and a winged heart" },

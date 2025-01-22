@@ -1,6 +1,6 @@
-import React from 'react';
+import type { FC } from 'react';
 
-const ContactInfo: React.FC = () => {
+const ContactInfo: FC = () => {
     return (
         <div className="text-center">
             <br />

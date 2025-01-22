@@ -1,7 +1,7 @@
-import React from 'react';
+import type { FC } from 'react';
 import Link from 'next/link';
 
-const Footer: React.FC = () => {
+const Footer: FC = () => {
     return (
         <footer className="bg-ivory dark:bg-maire text-maire dark:text-ivory py-4 flex justify-center" data-nosnippet>
             <div className="flex flex-col text-xs lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12">
@@ -9,7 +9,8 @@ const Footer: React.FC = () => {
                     <Link href="/" className="nav underline">Tattoos</Link> | <span/>
                     <Link href="/flash" className="nav underline">Flash</Link> | <span/>
                     <a href="https://shop.jakecordaltattoo.co.uk" className="nav underline">Shop</a> | <span/>
-                    <Link href="/faq" className='nav underline'>FAQ</Link>
+                    <Link href="/faq" className='nav underline'>FAQ</Link> | <span/>
+                    <Link href="/book" className='nav underline'>Book</Link>
                 </p>
                 <br />
                 <div className='flex justify-between flex-col sm:flex-row'>
