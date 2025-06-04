@@ -129,7 +129,7 @@ const TattooGallery: React.FC = () => {
 	return (
 		<div className="grid grid-cols-3 gap-4 lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12" data-nosnippet>
 			{tat_images.map((image, index) => (
-				<div key={index} className="relative block">
+				<div key={index}>
 					<Image
 						src={image.src}
 						alt={image.alt}
@@ -181,7 +181,7 @@ const FlashGallery: React.FC = () => {
 	return (
 		<div className="grid grid-cols-2 gap-4 lg:w-8/12 md:w-9/12 sm:w-10/12 w-11/12" data-nosnippet>
 			{flsh_images.slice(1).map((image, index) => (
-				<div key={index} className="relative block">
+				<div key={index}>
 					<Image
 						src={image.src}
 						alt={image.alt}
@@ -197,7 +197,7 @@ const FlashGallery: React.FC = () => {
 					/>
 				</div>
 			))}
-			<div key={0} className="row-span-2 col-span-2 relative block">
+			<div key={0} className="row-span-2 col-span-2">
 				<Image
 					src={flsh_images[0].src}
 					alt={flsh_images[0].alt}
