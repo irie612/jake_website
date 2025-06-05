@@ -136,9 +136,9 @@ const TattooGallery: React.FC = () => {
 						className="aspect-[6/9] object-contain"
 						placeholder="blur"
 						loading="lazy"
-						sizes="(max-width: 640px) 45vw, 
-							(max-width: 768px) 30vw, 
-							(max-width: 1024px) 20vw, 
+						sizes="(max-width: 640px) 45vw,
+							(max-width: 768px) 30vw,
+							(max-width: 1024px) 20vw,
 							15vw"
 						quality={60}
 						priority={false}
@@ -188,9 +188,9 @@ const FlashGallery: React.FC = () => {
 						className="object-contain"
 						placeholder="blur"
 						loading="lazy"
-						sizes="(max-width: 640px) 45vw, 
-							(max-width: 768px) 30vw, 
-							(max-width: 1024px) 20vw, 
+						sizes="(max-width: 640px) 45vw,
+							(max-width: 768px) 30vw,
+							(max-width: 1024px) 20vw,
 							15vw"
 						quality={60}
 						priority={false}
@@ -204,11 +204,11 @@ const FlashGallery: React.FC = () => {
 					className="aspect-[3/4] object-contain"
 					placeholder="blur"
 					loading="lazy"
-					sizes="(max-width: 640px) 45vw, 
-						(max-width: 768px) 30vw, 
-						(max-width: 1024px) 20vw, 
+					sizes="(max-width: 640px) 45vw,
+						(max-width: 768px) 30vw,
+						(max-width: 1024px) 20vw,
 						15vw"
-					quality={60}
+					quality={100}
 					priority={false}
 				/>
 			</div>
